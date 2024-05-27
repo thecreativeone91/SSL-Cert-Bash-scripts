@@ -1,6 +1,7 @@
-**SSL Certificate Update Scripts
-**
+# SSL Certificate Update Scripts
 
+
+These scripts are intended to simplify the process of updating and applying SSL certificates across various services. 
 
 
 This repository contains simple bash scripts designed to update SSL certificates, particularly those renewed via Let's Encrypt certbot, and apply them to internal hosts. The automation process can be streamlined using Nginx Proxy Manager Docker containers to update the certificates via Cloudflare (or other DNS) API verification.
@@ -9,7 +10,7 @@ These scripts are specifically for services that require more than just copying 
 
 
 
-Available Scripts
+# Available Scripts
 
 aspeed.sh
 For updating SSL certificates on Aspeed IPMI (Asrock Rack). This script may also work with other systems such as Supermicro.
@@ -24,8 +25,8 @@ unraid.sh
 Combines certificates into a single file and restarts Unraid web services.
 
 
-------------
-Media Automation Scripts
+
+## Media Automation Scripts
 
 plex.sh
 Updates SSL certificates for Plex Media Server. PFX files may not work properly with Plex without the additional commands.
@@ -38,7 +39,3 @@ For updating SSL certificates on Radarr. PFX files may not work properly with Pl
 
 sonarr.sh
 For updating SSL certificates on Sonarr. PFX files may not work properly with Plex without the additional commands.
-
-
-
-These scripts are intended to simplify the process of updating and applying SSL certificates across various services. 
