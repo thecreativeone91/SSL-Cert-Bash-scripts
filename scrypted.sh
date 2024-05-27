@@ -1,3 +1,4 @@
+#!/bin/bash
 ##Scrypted
 
 awk 'BEGIN{RS="\n";ORS="\r\n"}1' /mnt/user/appdata/privkey.pem > /mnt/user/appdata/privkeyformated.txt
