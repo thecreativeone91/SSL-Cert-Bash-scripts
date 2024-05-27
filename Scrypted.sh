@@ -1,4 +1,4 @@
-##Scrypted #14
+##Scrypted
 
 awk 'BEGIN{RS="\n";ORS="\r\n"}1' /mnt/user/appdata/privkey.pem > /mnt/user/appdata/privkeyformated.txt
 awk 'BEGIN{RS="\n";ORS="\r\n"}1' /mnt/user/appdata/fullchain.pem > /mnt/user/appdata/fullchainformated.txt
