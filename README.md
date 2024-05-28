@@ -26,7 +26,7 @@ Combines certificates into a single file and restarts Unraid web services.
 
 
 
-## Media Automation Scripts
+### Media Automation Scripts
 
 [plex.sh](plex.sh)
 Updates SSL certificates for Plex Media Server. PFX files may not work properly with Plex without the additional commands.
