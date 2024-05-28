@@ -28,6 +28,8 @@ Combines certificates into a single file and restarts Unraid web services.
 
 ### Media Automation Scripts
 
+These scripts requires [ccmpbll/docker-diag-tools](https://github.com/ccmpbll/docker-diag-tools). It can also easily be changed to work with another docker container with OpenSSL3 or locally installed OpenSSL3
+
 [plex.sh](plex.sh)
 Updates SSL certificates for Plex Media Server. PFX files may not work properly with Plex without the additional commands.
 
