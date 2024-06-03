@@ -21,7 +21,7 @@ if [ $? -ne 0 ]; then
   echo "Unable to remove old certificate"
   exit 1
 fi
-
+sleep 2
 ssh -i ~/.ssh/id_rsa.key $ROUTER_USER@$ROUTER "/certificate import file-name=${CERT} passphrase=\"\" ; /certificate import file-name=${KEY} passphrase=\"\""
 if [ $? -ne 0 ]; then
   echo "Unable to install new certificate"
