@@ -12,6 +12,9 @@ These scripts are specifically for services that require more than just copying 
 
 # Available Scripts
 
+[cyberpower.sh](cyberpower.sh)
+For updating SSL Certificates on CyberPower UPS's using the RMCARD205. Created for Firmware version 1.4.3
+
 [aspeed.sh](aspeed.sh)
 For updating SSL certificates on Aspeed IPMI (Asrock Rack). This script may also work with other systems such as Supermicro.
 
