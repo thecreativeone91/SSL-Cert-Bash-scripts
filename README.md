@@ -4,7 +4,7 @@
 These scripts are intended to simplify the process of updating and applying SSL certificates across various services. 
 
 
-This repository contains simple bash scripts designed to update SSL certificates, particularly those renewed via Let's Encrypt certbot, and apply them to internal hosts. The automation process can be streamlined using Nginx Proxy Manager Docker containers to update the certificates via Cloudflare (or other DNS) API verification.
+This repository contains simple bash scripts designed to update SSL certificates, particularly those renewed via Let's Encrypt certbot, and apply them to internal hosts. The automation process can be streamlined using Nginx Proxy Manager Docker containers to update the certificates via Cloudflare (or other DNS) API verification if you wish to have a GUI interface.
 
 These scripts are specifically for services that require more than just copying files.
 
