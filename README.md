@@ -12,13 +12,13 @@ These scripts are specifically for services that require more than just copying 
 
 # Available Scripts
 
-[/ComfyUI/main.py](/ComfyUI/main.py) also requires [/ComfyUI/override_server.py](/ComfyUI/override_server.py) and is using for adding SSL to ComfyUI (stadalone or Docker Containers such as comfyui-nvidia-docker that are not behind traefik) for Stable Diffusion AI Image generation, can easily be implmented with Certificate automation. Rename the existing main.py to main_http.py for the script to work. 
+[/ComfyUI/main.py](/ComfyUI/main.py) also requires [/ComfyUI/override_server.py](/ComfyUI/override_server.py) and is using for adding SSL to ComfyUI (stadalone or Docker Containers such as comfyui-nvidia-docker that are not behind traefik) for Stable Diffusion AI Image generation, can easily be implmented with Certificate automation. Rename the existing main.py to main_http.py for the script to work. Does not add any additional authentication; only SSL. 
 
 [cyberpower.sh](cyberpower.sh)
-For updating SSL Certificates on CyberPower UPS's using the RMCARD205. Created for Firmware version 1.4.3
+For updating SSL Certificates on CyberPower UPS's using the RMCARD205. Created for Firmware version 1.4.3. Note: Credientals stored in plain text; for production real use you should store credentials encrypted and call them. 
 
 [aspeed.sh](aspeed.sh)
-For updating SSL certificates on Aspeed IPMI (Asrock Rack). This script may also work with other systems such as Supermicro.
+For updating SSL certificates on Aspeed IPMI (Asrock Rack). This script may also work with other systems such as Supermicro. Note: Credientals stored in plain text; for production real use you should store credentials encrypted and call them
 
 [mikrotik-routerOS.sh](mikrotik-routerOS.sh)
 Used with Mikrotik CRS305 (Should work on any RouterOS based) switches, which are utilized for remote Starlink over single-mode fiber connections, remote cable modem over single-mode fiber, and a high availability cluster of Unifi Dream Machine SEs to split internet connections. Requires SSH public key authentication to be set up.
