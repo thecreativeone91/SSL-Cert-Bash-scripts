@@ -12,7 +12,7 @@ These scripts are specifically for services that require more than just copying 
 
 # Available Scripts
 
-[/ComfyUI/main.py](/ComfyUI/main.py) also requires [/ComfyUI/override_server.py](/ComfyUI/override_server.py) and is using for adding SSL to ComfyUI (stadalone or Docker Containers such as comfyui-nvidia-docker) for Stable Diffusion AI Image generation, can easily be implmented with Certificate automation. Rename the existing main.py to main_http.py for the script to work. 
+[/ComfyUI/main.py](/ComfyUI/main.py) also requires [/ComfyUI/override_server.py](/ComfyUI/override_server.py) and is using for adding SSL to ComfyUI (stadalone or Docker Containers such as comfyui-nvidia-docker that are not behind traefik) for Stable Diffusion AI Image generation, can easily be implmented with Certificate automation. Rename the existing main.py to main_http.py for the script to work. 
 
 [cyberpower.sh](cyberpower.sh)
 For updating SSL Certificates on CyberPower UPS's using the RMCARD205. Created for Firmware version 1.4.3
