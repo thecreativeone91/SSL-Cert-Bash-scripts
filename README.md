@@ -21,7 +21,7 @@ For updating SSL Certificates on CyberPower UPS's using the RMCARD205. Created f
 For updating SSL certificates on Aspeed IPMI (Asrock Rack). This script may also work with other systems such as Supermicro. Note: Credientals stored in plain text; for production real use you should store credentials encrypted and call them
 
 [mikrotik-routerOS.sh](mikrotik-routerOS.sh)
-Used with Mikrotik CRS305 (Should work on any RouterOS based) switches, which are utilized for remote Starlink over single-mode fiber connections, remote cable modem over single-mode fiber, and a high availability cluster of Unifi Dream Machine SEs to split internet connections. Requires SSH public key authentication to be set up.
+Used with Mikrotik CRS305 (Should work on any RouterOS based) switches, which are utilized for remote cable modem over single-mode fiber, and a high availability cluster of Unifi Dream Machine SEs to split internet connections. Requires SSH public key authentication to be set up.
 
 [scrypted.sh](scrypted.sh)
 For updating SSL certificates used with Scrypted for HomeKit cameras from Unifi. Certificates need to be in a JSON file format. This script requires the use of the [ssl.json.template](ssl.json.template) file.
